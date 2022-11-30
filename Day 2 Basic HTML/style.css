@@ -1,0 +1,21 @@
+.login {
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    border: blue 5px solid;
+}
+.name {
+    border-radius: 10px;
+    border: blue 3px solid;
+}
+.password {
+    border-radius: 10px;
+    border: blue 3px solid;
+}
+.submit {
+    margin:auto;
+    border-radius: 10px;
+    border: blue 3px solid;
+    width: 100%;
+}
