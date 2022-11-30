@@ -1,9 +1,14 @@
+
 .login {
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
     width: fit-content;
     height: fit-content;
-    background-color: white;
+    background-color: royalblue;
     border-radius: 10px;
     border: blue 5px solid;
+    tex
 }
 .name {
     border-radius: 10px;
