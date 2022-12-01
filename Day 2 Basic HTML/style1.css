@@ -23,10 +23,12 @@ body{
   text-align: center;
   padding: 8px;
   font-size: x-large;
+  font-weight: 600;
 }
 .jasonstroff {
   font-size: 20px;
   margin-right:auto;
+  font-weight: 530;
 }
 .fa-github {
   font-size: 25px;
@@ -59,12 +61,14 @@ body{
 .texttotal {
   padding-top: 70px;
   padding-left: 80px;
+  font-weight:  600;
 }
 .iam {
   padding-top: 50px;
   width: 360px;
   height: 150px;
   font-size: 40px;
+  font-weight: 790;
 }
 .flex3{
     display: flex;
@@ -74,6 +78,7 @@ body{
 .redtext {
     color: #F26464;
     font-size: 35px;
+    font-weight:  800;
 }
 .Bruh1{
     padding-right: 80px;
@@ -86,6 +91,8 @@ body{
     display: flex;
     align-items: center;
     padding-top: 10px;
+    font-weight:  400;
+    
 }
 .Lmao {
     padding-right: 50px;
@@ -99,28 +106,28 @@ body{
 .underline{
   border-bottom: 4px solid red;
   padding-bottom: 5px;
-  font-weight: 900;
+  font-weight:  700;
 }
 .lorem{
   margin-top: 45px;
   margin-left: 220px;
-  font-size: 20px;
+  font-size: 23px;
   width: 1000px;
   height: 100px;
-  line-height: normal;
+  line-height: 33px;
 }
 button{
   font-size:large;
   padding:12.5px;
   background: transparent;
-  border: 3px solid red;
+  border: 3px solid #F26464;
   border-radius: 22px;
-  color:red;
+  color:#F26464
 }
 button:hover{
-  color:aqua;
-  border-color: aqua;
-  background-color: brown;
+  color: white;
+  border-color: #F26464;
+  background-color: #F26464;
 }
 .download_resume{
   margin:auto;
