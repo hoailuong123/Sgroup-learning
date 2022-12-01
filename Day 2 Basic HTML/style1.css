@@ -130,7 +130,8 @@ button:hover{
   background-color: #F26464;
 }
 .download_resume{
-  margin:auto;
+  margin-top: 50px;
+  margin-left: 630px;
   width: fit-content;
 }
 
