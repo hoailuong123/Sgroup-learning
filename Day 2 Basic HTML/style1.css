@@ -1,15 +1,26 @@
+body{
+    display: flex;
+    align-items:center;
+}
 .squareJ {
     width: 40px;
     height: 40px;
     background-color: black;
-    margin: 50px;
+    /* margin: 50px; */
     border-radius: 5px;
 }
 
 
 .textJ {
+    /* width: fit-content; */
     color: white;
     text-align: center;
     padding: 8px;
     font-size:x-large;
+    
 }
+
+.jasonstroff{
+    font-size: 20px;
+}
+
