@@ -1,8 +1,13 @@
+body{
+  /* position: absolute; */
+  font-family: Arial, sans-serif;
+}
 .flex1 {
   display: flex;
   align-items: center;
   margin-top: 45px;
   margin-left: 200px;
+  width:1000px;
 }
 .squareJ {
   width: 40px;
@@ -21,11 +26,12 @@
 }
 .jasonstroff {
   font-size: 20px;
+  margin-right:auto;
 }
 .fa-github {
   font-size: 25px;
   color: red;
-  margin-left: 850px;
+  /* margin-left: 850px; */
 }
 .fa-stack-overflow {
   font-size: 25px;
@@ -40,12 +46,12 @@
 
 .flex2 {
   display: flex;
-  margin-top: 45px;
+  margin-top: 0px;
   margin-left: 100px;
 }
 
 .img1 {
-  width: 500px;
+  width: 460px;
   height: 550px;
   margin-left: 120px;
   margin-top: 50px;
@@ -56,18 +62,71 @@
 }
 .iam {
   padding-top: 50px;
-  width: 300px;
+  width: 360px;
   height: 150px;
   font-size: 40px;
 }
 .flex3{
     display: flex;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 .redtext {
-    color: red;
+    color: #F26464;
+    font-size: 35px;
 }
+.Bruh1{
+    padding-right: 80px;
+}
+.Bruh2{
+    padding-right: 60px;
+}
+
+.flex4{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.Lmao {
+    padding-right: 50px;
+}
+.flex5 {
+    /* align-items: center; */
+  margin-top: 45px;
+  margin-left: 220px;
+  font-size: 20px;
+}
+.underline{
+  border-bottom: 4px solid red;
+  padding-bottom: 5px;
+  font-weight: 900;
+}
+.lorem{
+  margin-top: 45px;
+  margin-left: 220px;
+  font-size: 20px;
+  width: 1000px;
+  height: 100px;
+  line-height: normal;
+}
+button{
+  font-size:large;
+  padding:12.5px;
+  background: transparent;
+  border: 3px solid red;
+  border-radius: 22px;
+  color:red;
+}
+button:hover{
+  color:aqua;
+  border-color: aqua;
+  background-color: brown;
+}
+.download_resume{
+  margin:auto;
+  width: fit-content;
+}
+
 
 
 
