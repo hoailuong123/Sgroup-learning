@@ -3,11 +3,15 @@ body{
   font-family: Arial, sans-serif;
   margin:auto;
 }
+.container {
+  margin: auto;
+  width: fit-content;
+}
 .flex1 {
   display: flex;
   align-items: center;
   margin-top: 45px;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   width:1000px;
 }
 .squareJ {
@@ -15,7 +19,9 @@ body{
   height: 40px;
   background-color: black;
   margin: 20px;
+  margin-left: 0;
   border-radius: 5px;
+  margin-right: 10px;
 }
 
 .textJ {
@@ -50,13 +56,13 @@ body{
 .flex2 {
   display: flex;
   margin-top: 0px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 
 .img1 {
   width: 460px;
   height: 550px;
-  margin-left: 120px;
+  /* margin-left: 120px; */
   margin-top: 50px;
 }
 .texttotal {
@@ -81,11 +87,13 @@ body{
     font-size: 35px;
     font-weight:  800;
 }
-.Bruh1{
-    padding-right: 80px;
+.Bruh{
+  /* flex:1; */
+  /* width: max-content; */
+  margin-right: 50px;
 }
-.Bruh2{
-    padding-right: 60px;
+.Bruh .Lmao p{
+  font-weight: 100;
 }
 
 .flex4{
@@ -96,12 +104,13 @@ body{
     
 }
 .Lmao {
-    padding-right: 50px;
+  margin-top:15px;
+    /* padding-right: 0px; */
 }
 .flex5 {
     /* align-items: center; */
   margin-top: 45px;
-  margin-left: 220px;
+  /* margin-left: 220px; */
   font-size: 20px;
 }
 .underline{
@@ -111,7 +120,7 @@ body{
 }
 .lorem{
   margin-top: 45px;
-  margin-left: 220px;
+  /* margin-left: 220px; */
   font-size: 23px;
   width: 1000px;
   height: 100px;
@@ -132,13 +141,15 @@ button:hover{
   transition: 0.5s ease-in-out;
 }
 .download_resume{
+  margin:auto;
   margin-top: 50px;
-  margin-left: 630px;
+  /* margin-left: 630px; */
   width: fit-content;
+  outline: none;
 }
 .flex6 {
   margin-top: 45px;
-  margin-left: 220px;
+  /* margin-left: 220px; */
   font-size: 22px;
   width: 1000px;
   height: 100px;
@@ -165,7 +176,7 @@ button:hover{
   border-radius: 40px;
   color: black;
   margin: 10px 10px 10px;
-  margin-left: 0px;
+  /* margin-left: 0px; */
   padding-left: 16px;
   padding-right: 16px;
 }
