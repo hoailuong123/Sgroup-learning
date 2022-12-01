@@ -1,12 +1,14 @@
 body{
     display: flex;
     align-items:center;
+    margin-top: 50px;
+    margin-left: 40px;
 }
 .squareJ {
     width: 40px;
     height: 40px;
     background-color: black;
-    /* margin: 50px; */
+    margin: 10px;
     border-radius: 5px;
 }
 
@@ -19,8 +21,10 @@ body{
     font-size:x-large;
     
 }
-
 .jasonstroff{
     font-size: 20px;
 }
+
+
+
 
