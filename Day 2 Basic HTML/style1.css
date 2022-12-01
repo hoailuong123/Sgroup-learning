@@ -128,6 +128,7 @@ button:hover{
   color: white;
   border-color: #F26464;
   background-color: #F26464;
+  transition: 0.5s ease-in-out;
 }
 .download_resume{
   margin-top: 50px;
@@ -137,13 +138,39 @@ button:hover{
 .flex6 {
   margin-top: 45px;
   margin-left: 220px;
-  font-size: 20px;
+  font-size: 22px;
+  width: 1000px;
+  height: 100px;
+  line-height: 33px;
   display: flex;
 }
-
-
-
-
-
-
-
+.coreskill ,.otherskills{
+  /* margin-right: auto; */
+  flex:1;
+  margin-right: 10px;
+}
+.coreskill p, .otherskills p{
+  margin-bottom: 50px;
+}
+.SkillDetails {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Skill {
+  font-size:large;
+  padding:12.5px;
+  background: transparent;
+  border: 1px solid #e1e1e1;
+  border-radius: 40px;
+  color: black;
+  margin: 10px 10px 10px;
+  margin-left: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.Skill:hover {
+  color: white;
+  border-color: #F26464;
+  background-color: #F26464;
+  transition: 0.3s ease-in-out;
+}
