@@ -1,6 +1,7 @@
 body{
   /* position: absolute; */
   font-family: Arial, sans-serif;
+  margin:auto;
 }
 .flex1 {
   display: flex;
