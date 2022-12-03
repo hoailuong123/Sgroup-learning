@@ -7,7 +7,7 @@ body{
   margin: auto;
   width: fit-content;
 }
-.navbar {
+.flex1 {
   display: flex;
   align-items: center;
   margin-top: 45px;
@@ -79,7 +79,7 @@ body{
   font-size: 40px;
   font-weight: 790;
 }
-.flex3{
+.temp{
     display: flex;
     align-items: center;
     padding-top: 70px;
@@ -98,18 +98,11 @@ body{
   font-weight: 100;
 }
 
-.flex4{
-    display: flex;
-    align-items: center;
-    padding-top: 10px;
-    font-weight:  400;
-    
-}
 .Lmao {
   margin-top:15px;
     /* padding-right: 0px; */
 }
-.flex5 {
+.flex3 {
     /* align-items: center; */
   margin-top: 45px;
   /* margin-left: 220px; */
@@ -120,7 +113,7 @@ body{
   padding-bottom: 5px;
   font-weight:  700;
 }
-.lorem{
+.flex4{
   margin-top: 45px;
   /* margin-left: 220px; */
   font-size: 23px;
@@ -142,7 +135,7 @@ button:hover{
   background-color: #F26464;
   transition: 0.5s ease-in-out;
 }
-.download_resume{
+.flex5{
   margin:auto;
   margin-top: 50px;
   /* margin-left: 630px; */
@@ -151,6 +144,7 @@ button:hover{
 }
 .flex6 {
   margin-top: 45px;
+  margin-bottom: 100px;
   /* margin-left: 220px; */
   font-size: 22px;
   width: 1000px;
@@ -189,40 +183,60 @@ button:hover{
   transition: 0.3s ease-in-out;
 }
 .flex7 {
-  margin-top: 350px;
-  font-size: 22px;
+  margin-top: 300px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.flex8 {
   width: 1000px;
-  height: 100px;
-  line-height: 33px;
-  display: flex;
+  display: flex;  
 }
-.workexperience , .nonecontent {
-  flex: 1;
-  flex-wrap: wrap;
-}
-.nonecontent{
-  margin-top:5px;
-}
-.workexperience p, .nonecontent p{
-  margin-bottom: 45px;
+.splitleft ,.splitright{
+  /* margin-right: auto; */
+  flex:1 ;
+  margin-right: 10px;
 }
 .time {
-  font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 15.5px;
 }
 .company {
-  margin-top: 7px;
+  margin-top: 20px;
+  margin-bottom: 18.5px;
   font-size: 25px;
-  color: #525252;
+  color: #464646;
 }
 .level {
-  margin-top: 9px;
+  margin-bottom: 20px;
+  font-weight: 600;
   font-size: 17.5px;
-  font-weight: 700;
 }
-.loremworkexperience {
+.loremtext1 {
+  margin-top: 40px;
   width: 400px;
-  margin-top: 25px;
-  font-size: 17px;
-  color: #525252;
+  line-height: 25px;
+  color: #767676;
 }
+.loremtext2 {
+  margin-top: 20px;
+  width: 400px;
+
+  line-height: 20px;
+}
+.li {
+  margin-bottom: 20px;
+  color: #767676;
+
+}
+li::marker{
+  font-size: 30px;
+  color: black;
+}
+
+.flex9 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+
