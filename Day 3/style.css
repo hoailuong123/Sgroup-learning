@@ -1,0 +1,55 @@
+html, body{
+  height: 100%;
+}
+body {
+  font-family: Arial, sans-serif !important;
+  margin: auto;
+}
+.header {
+  margin: auto;
+  width: fit-content;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.textfirst {
+  align-items: center;
+  font-size: 15px;
+  color: #6489c0;
+}
+.category {
+  /* align-items: center; */
+  margin: auto;
+  width: fit-content;
+  outline: none;
+}
+.textsecond {
+  font-size: 38px;
+  font-weight: 799.9;
+}
+.container{
+  display: flex;
+}
+.card {
+  flex: 1;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 10px #888888;
+  height:500px;
+  overflow: hidden;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.card img{
+  height: 45%;
+  width: 100%;
+}
+.card .price{
+  float:right;
+}
+.apartment_name {
+  margin: 20px;
+  font-size: 30px ;
+}
