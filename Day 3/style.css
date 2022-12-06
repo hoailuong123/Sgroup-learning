@@ -33,7 +33,7 @@ body {
 .container{
   display: flex;
   margin-top: 50px;
-  margin-right: 200px; /* cho nay cna phai sua */
+  margin-right: 150px; /* cho nay cna phai sua */
   margin-left:200px; /* cho nay cna phai sua */
 }
 .card {
@@ -105,17 +105,20 @@ body {
   width: 300px;
 }
 .infomation img {
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
   object-fit: cover;
   border-radius: 50%;
   margin-right: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 .personal_name {
   font-size: 18px;
   margin-right: auto;
   font-weight: 550;
   color: #79797b;
+  margin-top: 15px;
 }
 
 /* .fa-heart {
@@ -128,6 +131,30 @@ body {
   color: #aaaaaa;
   margin: 10px;
 } */
-.infomation .price {
+.name .price {
   float: right;
+}
+.see_all {
+  margin: auto;
+  margin-top: 50px;
+  /* margin-left: 630px; */
+  width: fit-content;
+  outline: none;
+  padding-bottom: 20px;
+}
+button {
+  width: 170px;
+  height: 50px;
+  font-size: large;
+  padding: 12.5px;
+  background: transparent;
+  border: 2px solid #7597c6;
+  border-radius: 35px;
+  color: #7597c6;
+}
+button:hover {
+  color: white;
+  border-color: #7597c6;
+  background-color: #7597c6 ;
+  transition: 0.5s ease-in-out;
 }
